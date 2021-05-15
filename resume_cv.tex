@@ -24,7 +24,7 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[11pt, a4paper]{awesome-cv} % A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[16pt, a4paper]{awesome-cv} % A4 paper size by default, use 'letterpaper' for US letter
 
 \geometry{left=2cm, top=1.5cm, right=2cm, bottom=2cm, footskip=.5cm} % Configure page margins with geometry
 
@@ -76,10 +76,13 @@
 %	Each section is imported separately, open each file in turn to modify content
 %----------------------------------------------------------------------------------------
 
+
+\input{cv-sections/sobre.tex}
+\input{cv-sections/experience.tex}
 \input{cv-sections/education.tex}
-\input{cv-sections/skills.tex}
+\input{cv-sections/habilities.tex}
+\input{cv-sections/research.tex}
 \input{cv-sections/extracurricular.tex}
-%\input{cv-sections/experience.tex}
 
 %\newpage % Force a new page for looks
 
@@ -92,3 +95,4 @@
 %----------------------------------------------------------------------------------------
 
 \end{document}
+
